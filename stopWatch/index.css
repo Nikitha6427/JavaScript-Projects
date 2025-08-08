@@ -1,6 +1,6 @@
 h3{
     text-align: center;
-    color:#ffffff;
+    color:#c6f0f1;
     font-weight: bolder;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,7 +8,7 @@ h3{
 h1{
     text-align: center;
     top:30%;
-    color: #ffffff;
+    color: #b8e4e6;
     
     
    
@@ -22,7 +22,7 @@ body{
     left:50%;
     transform: translate(-50%,-50%);
     padding: 20px;
-    border: rgb(255, 255, 255);
+    border: rgb(157, 237, 237);
     margin: 2px;
     padding-bottom: 5px;
     height: 40px;
