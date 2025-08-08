@@ -1,31 +1,35 @@
-let secondsElapsed = 0;
+let millisecondsElapsed = 0;
 let interval =null;
 const time = document.getElementById("time")
 
-function padStart(value){
+function pad(value){
     return String(value).padStart(2,"0")
 }
 function setTimer(){
-    const minutes = Math.floor(secondsElapsed/60)
-    const seconds = secondsElapsed % 60
-    time.innerHTML = `${padStart(minutes)}:${padStart(seconds)}`
-}
+    const totalSeconds = Math.floor(millisecondsElapsed / 1000);
+    const minutes = Math.floor(totalSeconds/60);
+    const seconds =totalSeconds % 60;
+    const milliseconds = Math.floor((millisecondsElapsed % 1000) / 10); 
+    time.innerHTML = `${pad(minutes)}:${pad(seconds)}:${pad(milliseconds)}`;}
 
 function timer(){
-    secondsElapsed++;
+    millisecondsElapsed+=10;
     setTimer()
 }
 function startClock(){
     if (interval) stopClock()
-    interval = setInterval(timer,1000)
+    interval = setInterval(timer,10)
 }
 function stopClock(){
     clearInterval(interval)
+     interval = null;
 
 }
 function resetClock(){
     stopClock()
-    secondsElapsed= 0;
+    millisecondsElapsed= 0;
     setTimer()
 
 }
+
+setTimer();

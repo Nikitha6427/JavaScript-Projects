@@ -26,6 +26,7 @@ const verses  = [
 //to not use the same verse again and again
 const usedIndexes = new Set()
 const verseElement = document.getElementById("verse")
+verseElement.innerHTML = " Click Generate verse to see verse of the day";
 
 function generateVerse(){
     //to avoid from browser freezing

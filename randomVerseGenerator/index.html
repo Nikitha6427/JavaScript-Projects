@@ -5,17 +5,56 @@
     <style>
         h1{
             text-align: center;
-            color: rgb(162, 8, 39);
+            color: rgb(93, 48, 48);
         }
         body{
-            background-color: beige;
+            background-color: #f1e4b8;
+        }
+        #genVerse{
+            position:absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,-40%);
+            
+        }
+        #versebox{
+            border: 2px solid #333;
+            position:absolute;
+            padding: 15px;
+            top: 45%;
+            left: 50%;
+            height: 100px;
+            transform: translate(-50%,-50%);
+            border-radius: 5px;
+            border-color:rgb(93, 48, 48);
+
+        }
+        button{
+            border-radius: 3px;
+            background-color:#e6ce80;
+            color:rgb(93, 48, 48);
+            margin: 0%;
+            border-color: rgb(93, 48, 48);
+            transition: none;
+            font-size: medium;
+            font-weight: bold;
+            
+        
+        }
+        #verse{
+            color: rgb(93, 48, 48);
+            font-weight: 550;
         }
     </style>
 </head>
 <body>
     <h1>Random Bible Verse Generator</h1>
+    <div id = genVerse>
     <button onclick="generateVerse()">Generate Verse</button>
+    </div>
+    <div id = versebox>
     <p id="verse"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

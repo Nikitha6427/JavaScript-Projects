@@ -1,0 +1,64 @@
+h3{
+    text-align: center;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    top:30%;
+    color: #ffffff;
+    
+    
+   
+}
+body{
+    background-color:#031035;
+}
+#options{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border: rgb(255, 255, 255);
+    margin: 2px;
+    padding-bottom: 5px;
+    height: 40px;
+     display: flex;
+     gap: 15px;
+}
+
+#b1{
+    background-color: rgb(108, 212, 85);
+    border-radius:5px ;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+  
+}
+#b2{
+    background-color: rgb(245, 65, 65);
+        border-radius:5px ;
+         height: 40px;
+         width: 80px;
+         font-weight: bold;
+
+
+}
+#b3{
+    background-color:rgb(105, 221, 236);
+        border-radius:5px ;
+      
+        
+         height: 40px;
+         width: 80px;
+         font-weight: bold;
+
+
+}
+
+#b1:hover,#b2:hover,#b3:hover {
+    background-color: rgb(255, 255, 255);
+}
