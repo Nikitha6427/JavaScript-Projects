@@ -31,7 +31,7 @@ body{
 }
 
 #b1{
-    background-color: rgb(108, 212, 85);
+    background-color: rgb(68, 236, 30);
     border-radius:5px ;
     height: 40px;
     width: 80px;
@@ -39,7 +39,7 @@ body{
   
 }
 #b2{
-    background-color: rgb(245, 65, 65);
+    background-color: rgb(255, 1, 1);
         border-radius:5px ;
          height: 40px;
          width: 80px;
@@ -48,7 +48,7 @@ body{
 
 }
 #b3{
-    background-color:rgb(105, 221, 236);
+    background-color:rgb(45, 212, 234);
         border-radius:5px ;
       
         
