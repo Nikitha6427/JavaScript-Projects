@@ -1,3 +1,26 @@
 body{
-    background-color: #e4b1f5;
+    background-color:#ffd6e9;
+    text-align: center;
+    background-image: url(image.jpeg);
+    
+}
+button{
+    background-color:rgba(9, 8, 10, 0.3);
+    padding: 8px;
+    border:2x solid black;
+    border-radius: 5px;
+}
+input{
+    background-color:rgba(9, 8, 10, 0.5);
+    font-weight:normal;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: black;
+    border-radius: 5px;
+}
+
+
+#items p{
+    font-weight:540;
 }
